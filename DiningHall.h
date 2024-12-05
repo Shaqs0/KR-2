@@ -16,6 +16,7 @@ public:
     DiningHall();
     void setCook(Cook cook);
     void setWaiter(Waiter waiter);
+    void setMenu(MenuItem items[], int size); 
     void displayInfo();
 };
 
